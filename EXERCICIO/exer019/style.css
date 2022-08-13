@@ -1,0 +1,13 @@
+@charset 
+
+BODY{
+    background-color: rgb(63, 219, 219);
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+h1{
+    background-color: rgb(142, 89, 192);
+}

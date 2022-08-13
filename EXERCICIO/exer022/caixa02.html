@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: dimgrey;
+            margin: 0px;
+            
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            text-decoration: none;
+            padding: 2px;
+            background-color: blueviolet;
+            box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.37);
+            
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: brown;
+        }
+        main{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        article{
+            background-color: lightgray;
+        }
+        article > aside{
+            background-color: lightgreen;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ullam maiores corporis eveniet magni delectus beatae nulla iure quisquam nostrum quibusdam a tempora assumenda, itaque eius voluptatem odio iusto libero.</p>
+                <aside>Artigo escrito pelo paulo fernandes</aside>
+            </article>
+            <article>
+                <h2>noticia sobre o mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam blanditiis corrupti cupiditate aut veritatis? Ut, a, facilis quam, magnam asperiores ipsam sint distinctio sapiente repellendus explicabo mollitia perspiciatis maxime ipsum?</p>
+                <aside>Artigo escrito por lucas souza</aside>
+            </article>
+
+        </section>
+
+
+    </main>
+    <footer>
+        <p>Criado por curso em Video</p>
+    </footer>
+    
+</body>
+</html>

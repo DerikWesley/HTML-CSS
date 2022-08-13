@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Teste formulario</h1>
+
+    <form action="cadastro.php" method="post">
+
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required maxlength="18" placeholder="Nome Completo" autocomplete="name" required>
+        </p>
+
+        <p>
+            <label for="imedia">Media:</label>
+            <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.5" required>
+        </p>
+
+        <p>
+            <label for="imes">Periodo Letivo:</label>
+            <input type="month" name="mes" id="imes" value="2022-07">
+        </p>
+
+        <p>
+            <label for="Idata">Dia da prova:</label>
+            <input type="date" name="dia" id="idia" value="2022-08-10">
+        </p>
+        
+        <p>
+            <label for="ihora">Horario da Prova</label>
+            <input type="time" name="hora" id="ihora" value="13:30">
+        </p>
+
+        <p>
+            <label for="icor">Cor desejada:</label>
+            <input type="color" name="cor" id="icor">
+        </p>
+
+        <p>
+            <label for="imar">Marcação:</label>
+            <input type="checkbox" name="mar" id="imar">
+            <input type="checkbox" name="mar" id="imar">
+        </p>
+        <p>
+            <label for="imail">E-mail:</label>
+            <input type="email" name="mail" id="imail">
+        </p>
+        <p>
+            <label for="Vol">Volume:</label>
+            <input type="range" name="vol" id="ivol">
+        </p>
+        <p>
+            <label for="itel">Telefone:</label>
+            <input type="tel" name="tel" id="itel">
+        </p>
+        <p>
+            <label for="bot">Botão:</label>
+            <input type="button" value="Clique Aqui">
+        </p>
+        <p>
+            <label for="ipro">Pesquisa</label>
+            <input type="search" name="pro" id="Ipro">
+        </p>
+        <p>
+            <label for="imar">Marcação</label>
+            <input type="radio" name="mar" id="imar">
+        </p>
+        <p>
+            <label for="semana">Semana:</label>
+            <input type="week">
+        </p>
+
+
+    </form>
+    
+</body>
+</html>
